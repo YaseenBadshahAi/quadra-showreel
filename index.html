@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QUADRA — Four Worlds, One Frame</title>
+<meta name="description" content="A living 2x2 showreel website: four animated hero worlds in one tidy frame.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ======================= 2x2 MOSAIC ======================= -->
+<main class="mosaic" id="mosaic">
+
+  <!-- ========== QUADRANT 1 : SCOWBY (maroon / playful / 3D puppy) ========== -->
+  <section class="quad quad--scowby" data-quad="scowby" tabindex="0" aria-label="Scowby — a serious dog's game">
+    <div class="quad-inner">
+      <header class="q-nav">
+        <span class="logo logo--scowby">scowby<span class="paw">🐾</span></span>
+        <nav class="q-links"><a>STORY</a><a>SQUAD</a><a>MISSIONS</a><a>PLAYGROUND</a></nav>
+      </header>
+      <p class="eyebrow">A SERIOUS DOG'S GAME</p>
+      <h2 class="headline headline--anton">SIT. STAY.<br><em>JUDGE.</em></h2>
+      <a class="btn btn--dark">START NOW <span class="btn-play">▶</span></a>
+      <!-- SVG cartoon puppy: fluffy, grumpy side-eye -->
+      <div class="puppy" aria-hidden="true">
+        <svg viewBox="0 0 300 260">
+          <ellipse cx="70" cy="80" rx="42" ry="58" fill="#e8dcc8" transform="rotate(18 70 80)"/>
+          <ellipse cx="230" cy="80" rx="42" ry="58" fill="#e8dcc8" transform="rotate(-18 230 80)"/>
+          <circle cx="150" cy="140" r="98" fill="#f4ecdc"/>
+          <ellipse cx="96" cy="96" rx="26" ry="34" fill="#d9b98c" transform="rotate(-14 96 96)"/>
+          <ellipse cx="150" cy="196" rx="46" ry="34" fill="#e8d3ae"/>
+          <ellipse cx="150" cy="182" rx="17" ry="12" fill="#3a2a26"/>
+          <path d="M150 194 q0 12 -12 14 M150 194 q0 12 12 14" stroke="#3a2a26" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <g class="puppy-eyes">
+            <circle cx="112" cy="140" r="10" fill="#2b1d18"/>
+            <circle cx="188" cy="140" r="10" fill="#2b1d18"/>
+            <circle cx="116" cy="136" r="3.5" fill="#fff"/>
+            <circle cx="192" cy="136" r="3.5" fill="#fff"/>
+          </g>
+          <path d="M92 118 q20 -12 40 -2 M168 116 q20 -10 40 2" stroke="#3a2a26" stroke-width="6" fill="none" stroke-linecap="round"/>
+          <circle cx="86" cy="176" r="11" fill="#e8b4a0" opacity=".65"/>
+          <circle cx="214" cy="176" r="11" fill="#e8b4a0" opacity=".65"/>
+        </svg>
+      </div>
+      <div class="thumb-row">
+        <div class="thumb">🦴<span>Biscuit Run</span></div>
+        <div class="thumb">🎾<span>Fetch Court</span></div>
+        <div class="thumb">🏆<span>Top Dog</span></div>
+      </div>
+    </div>
+    <span class="expand-hint">Click to enter ↗</span>
+  </section>
+
+  <!-- ========== QUADRANT 2 : PARROT (sage / minimal / macaw flies in) ========== -->
+  <section class="quad quad--parrot" data-quad="parrot" tabindex="0" aria-label="Parrot — defence shaped by instinct">
+    <div class="quad-inner">
+      <header class="q-nav">
+        <span class="logo logo--parrot">🦜 PARROT</span>
+        <nav class="q-links q-links--dark"><a>PLATFORM</a><a>COVERAGE</a><a>RESEARCH</a><a>COMPANY</a></nav>
+        <span class="q-cta"><a class="signin">SIGN IN</a><a class="btn btn--pill-dark">GET ACCESS</a></span>
+      </header>
+      <!-- SVG macaw, wings spread, flies in on a loop -->
+      <div class="macaw" aria-hidden="true">
+        <svg viewBox="0 0 340 220">
+          <g class="wing wing--left">
+            <path d="M168 96 Q70 10 14 44 Q74 78 96 118 Q132 128 168 112 Z" fill="#f2b705"/>
+            <path d="M168 104 Q92 44 44 62 Q96 100 122 124 Q148 128 168 118 Z" fill="#7fb069"/>
+          </g>
+          <g class="wing wing--right">
+            <path d="M176 96 Q274 10 330 44 Q270 78 248 118 Q212 128 176 112 Z" fill="#f2b705"/>
+            <path d="M176 104 Q252 44 300 62 Q248 100 222 124 Q196 128 176 118 Z" fill="#7fb069"/>
+          </g>
+          <path d="M172 84 q26 60 8 118 q-4 14 -12 0 q-16 -58 -2 -118 Z" fill="#e63946"/>
+          <ellipse cx="172" cy="82" rx="27" ry="32" fill="#f6f1e3"/>
+          <circle cx="163" cy="74" r="5" fill="#1d1d1b"/>
+          <path d="M182 62 q26 8 20 26 q-16 4 -28 -6 Z" fill="#1d1d1b"/>
+          <path d="M166 196 q6 22 -4 34 M178 196 q-2 22 6 32" stroke="#e63946" stroke-width="7" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="parrot-copy">
+        <p class="eyebrow eyebrow--dark">AERIAL INTELLIGENCE</p>
+        <h2 class="headline headline--parrot">Defence shaped<br>by instinct.</h2>
+        <div class="stat-row">
+          <div class="stat-card"><strong>Terns</strong><span>species tracked</span></div>
+          <div class="stat-card"><strong><span data-count="96.06">0</span>%</strong><span>detection accuracy</span></div>
+        </div>
+      </div>
+    </div>
+    <span class="expand-hint expand-hint--dark">Click to enter ↗</span>
+  </section>
+
+  <!-- ========== QUADRANT 3 : BRAIX (red-orange gradient / crossfading heroes) ========== -->
+  <section class="quad quad--braix" data-quad="braix" tabindex="0" aria-label="Braix — real-time brain visualization">
+    <div class="quad-inner">
+      <header class="q-nav">
+        <span class="logo logo--braix"><span class="braix-mark"></span>Braix</span>
+        <nav class="q-links"><a>Overview</a><a>Technology</a><a>Use Cases</a><a>Contact</a></nav>
+        <a class="btn btn--ghost">Let's Connect</a>
+      </header>
+      <p class="eyebrow eyebrow--pill">● Real-Time Brain Visualization</p>
+      <div class="braix-stage">
+        <h2 class="headline headline--anton braix-line is-on">VISUALIZE YOUR<br>MIND IN MOTION</h2>
+        <h2 class="headline headline--anton braix-line">OMNI DIGITAL<br>WEBSITE REDESIGN</h2>
+        <h2 class="headline headline--anton braix-line">CREATE without<br>LIMITS boundaries</h2>
+      </div>
+      <!-- visor figure: abstract SVG -->
+      <div class="visor" aria-hidden="true">
+        <svg viewBox="0 0 200 200">
+          <circle cx="100" cy="86" r="52" fill="#ffd9c2"/>
+          <path d="M28 78 Q100 40 172 78 L164 104 Q100 82 36 104 Z" fill="#1d1d1b"/>
+          <path d="M36 84 Q100 56 164 84 L160 96 Q100 74 40 96 Z" fill="#ff3d2e"/>
+          <path d="M70 150 q30 14 60 0 l6 40 H64 Z" fill="#1d1d1b"/>
+        </svg>
+      </div>
+      <div class="stat-row stat-row--braix">
+        <div class="glass-card">
+          <span>Emotional State</span>
+          <svg class="wave" viewBox="0 0 120 34" preserveAspectRatio="none">
+            <path d="M0 17 L12 17 L18 6 L26 28 L34 17 L52 17 L58 10 L66 24 L72 17 L120 17" fill="none" stroke="#fff" stroke-width="2.5"/>
+          </svg>
+        </div>
+        <div class="glass-card">
+          <span>Cognitive Load Analysis</span>
+          <strong><span data-count="90">0</span>%</strong>
+        </div>
+      </div>
+      <a class="btn btn--circle">▶<small>Explore Your Mind</small></a>
+    </div>
+    <span class="expand-hint">Click to enter ↗</span>
+  </section>
+
+  <!-- ========== QUADRANT 4 : NAIADE (dark teal luxury / serif / Ken Burns) ========== -->
+  <section class="quad quad--naiade" data-quad="naiade" tabindex="0" aria-label="Naïade — born in still water">
+    <div class="naiade-bg" aria-hidden="true"></div>
+    <div class="quad-inner">
+      <header class="q-nav">
+        <span class="logo logo--naiade">NAÏADE</span>
+        <nav class="q-links"><a>Collections</a><a>Atelier</a><a>The Deep End</a><a>Journal</a></nav>
+        <span class="q-bag">BAG (0)</span>
+      </header>
+      <h2 class="headline headline--serif">Born in <em>still water.</em><br>Worn after <em>dark.</em></h2>
+      <p class="naiade-caption">Pear-cut Paraiba tourmaline, set in 18K white gold</p>
+      <!-- figure + pendant: abstract SVG -->
+      <div class="naiade-figure" aria-hidden="true">
+        <svg viewBox="0 0 200 240">
+          <ellipse cx="100" cy="52" rx="26" ry="32" fill="#0e2a30"/>
+          <path d="M100 84 q-40 10 -44 62 l10 78 h68 l10 -78 q-4 -52 -44 -62Z" fill="#08181d"/>
+          <path d="M78 108 q22 26 44 0" stroke="#67e8f9" stroke-width="2" fill="none" opacity=".8"/>
+          <g class="pendant">
+            <path d="M100 128 l12 18 l-12 20 l-12 -20 Z" fill="#2dd4bf"/>
+            <path d="M100 128 l12 18 l-12 4 l-12 -4 Z" fill="#99f6e4"/>
+          </g>
+        </svg>
+      </div>
+      <div class="product-card">
+        <span class="product-card__gem">◆</span>
+        <div><strong>Night Swim Ring</strong><small>Paraiba tourmaline</small></div>
+        <span class="product-card__price">$16,200</span>
+      </div>
+      <div class="product-grid">
+        <div class="mini-product">Undertow Drops<small>$8,450</small></div>
+        <div class="mini-product">Deep Current Cuff<small>$11,900</small></div>
+        <div class="mini-product">Stillwater Pendant<small>$9,275</small></div>
+      </div>
+    </div>
+    <span class="expand-hint">Click to enter ↗</span>
+  </section>
+</main>
+
+<!-- floating control pill -->
+<div class="dock">
+  <span class="dock__title">QUADRA — four worlds, one frame</span>
+  <button id="motionToggle" class="dock__btn" aria-pressed="false">⏸ Pause motion</button>
+</div>
+
+<!-- ======================= EXPANDED FULL-PAGE VIEW ======================= -->
+<div class="expander" id="expander" hidden>
+  <button class="expander__close" id="expanderClose" aria-label="Close">✕ Back to the frame</button>
+  <div class="expander__content" id="expanderContent"></div>
+</div>
+
+<template id="tpl-scowby">
+  <div class="page page--scowby">
+    <h1 class="headline headline--anton">SIT. STAY. <em>JUDGE.</em></h1>
+    <p class="page-lead">The serious dog game. Train your pup, enter the Fetch Court, and let the judges decide who is a good boy.</p>
+    <div class="page-cards"><div>🦴 Biscuit Run — daily quests</div><div>🎾 Fetch Court — ranked matches</div><div>🏆 Top Dog — seasonal league</div></div>
+    <a class="btn btn--dark">START NOW ▶</a>
+  </div>
+</template>
+<template id="tpl-parrot">
+  <div class="page page--parrot">
+    <h1 class="headline headline--parrot">Defence shaped by instinct.</h1>
+    <p class="page-lead">Aerial intelligence that watches like a bird of prey — 96.06% detection accuracy across every tern colony we cover.</p>
+    <div class="page-cards"><div>Platform — live coverage map</div><div>Research — field studies</div><div>Company — our story</div></div>
+    <a class="btn btn--pill-dark">GET ACCESS</a>
+  </div>
+</template>
+<template id="tpl-braix">
+  <div class="page page--braix">
+    <h1 class="headline headline--anton">VISUALIZE YOUR MIND IN MOTION</h1>
+    <p class="page-lead">Real-time brain visualization: emotional state and cognitive load, streamed live. hello@braix.io — San Francisco, CA.</p>
+    <div class="page-cards"><div>Overview</div><div>Technology</div><div>Use Cases</div><div>Contact us</div></div>
+    <a class="btn btn--ghost">Let's Connect</a>
+  </div>
+</template>
+<template id="tpl-naiade">
+  <div class="page page--naiade">
+    <h1 class="headline headline--serif">Born in <em>still water.</em> Worn after <em>dark.</em></h1>
+    <p class="page-lead">The Undertow Drops collection — Paraiba tourmaline and 18K white gold, made for after dark.</p>
+    <div class="page-cards"><div>Night Swim Ring — $16,200</div><div>Undertow Drops — $8,450</div><div>Deep Current Cuff — $11,900</div></div>
+    <a class="btn btn--ghost">Shop the collection</a>
+  </div>
+</template>
+
+<script src="js/main.js"></script>
+</body>
+</html>
